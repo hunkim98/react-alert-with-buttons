@@ -39,6 +39,7 @@ const styles: Record<string, CSSProperties> = {
     display: "flex",
     padding: "20px 0",
     width: "100%",
+    maxWidth: 460,
   },
   Button: {
     cursor: "pointer",
@@ -49,6 +50,7 @@ const styles: Record<string, CSSProperties> = {
     padding: "15px 0",
     fontSize: "1em",
     flex: "1 0",
+    backgroundColor: "#DCDCDC",
   },
 };
 export default styles;
