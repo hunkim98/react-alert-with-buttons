@@ -6,9 +6,9 @@ import "./mediaQuery.css";
 
 interface Props {
   children: JSX.Element | Array<JSX.Element>;
-  containerStyle: CSSProperties;
-  defaultConfirmText: string;
-  buttonStyle: CSSProperties;
+  containerStyle?: CSSProperties;
+  defaultConfirmText?: string;
+  buttonStyle?: CSSProperties;
 }
 
 const Provider: React.FC<Props> = ({
