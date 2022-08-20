@@ -25,7 +25,9 @@ const styles: Record<string, CSSProperties> = {
   CloseButton: {
     cursor: "pointer",
     alignSelf: "flex-end",
-    opacity: 0.5,
+    opacity: 0.2,
+    width: 40,
+    height: 40,
   },
   Message: {
     alignSelf: "center",
