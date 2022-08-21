@@ -103,7 +103,7 @@ const Provider: React.FC<Props> = ({
                       close();
                     }}
                   >
-                    {defaultConfirmText ? defaultConfirmText : "Yes"}
+                    {defaultConfirmText ? defaultConfirmText : "OK"}
                   </button>
                 )}
               </div>

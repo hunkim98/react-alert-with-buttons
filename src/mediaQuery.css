@@ -1,6 +1,5 @@
-.AlertButtonsMediaQuery {
-  flex-direction: column;
-  @media (min-width: 1024px) {
-    flex-direction: row;
+@media screen and (max-width: 576px) {
+  .AlertButtonsMediaQuery {
+    flex-direction: column;
   }
 }

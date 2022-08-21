@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/hunkim98"
   },
-  "version": "0.0.5",
+  "version": "0.0.14",
   "description": "A library that creates alerts with clickable buttons",
   "scripts": {
     "rollup": "rollup -c"
@@ -20,13 +20,11 @@
     "tslib": "^2.4.0",
     "typescript": "^4.7.4",
     "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@types/react-dom": "^18.0.6"
   },
   "peerDependencies": {
-    "react": ">=18.2.0",
-    "react-dom": ">=18.2.0"
+    "react": ">=17.2.0",
+    "react-dom": ">=17.2.0"
   },
   "module": "dist/esm/index.js",
   "files": [
