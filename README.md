@@ -45,7 +45,7 @@ Go to index.js and wrap it with AlertProvider
 // index.js
 import React from 'react'
 import { render } from 'react-dom'
-import { AlertProvider } from '@hunkim98/react-alert-with-buttons'
+import { AlertProvider } from 'react-alert-with-buttons'
 import App from './App'
 
 
@@ -67,7 +67,7 @@ You can show alerts using the open method(A message is required for opening an a
 ```js
 // App.js
 import React from 'react'
-import { useAlert } from '@hunkim98/react-alert-with-buttons'
+import { useAlert } from 'react-alert-with-buttons'
 
 const App = () => {
   const alert = useAlert()
@@ -100,7 +100,7 @@ You can change the default styles and text by adding properties to the AlertProv
 // index.js
 import React from 'react'
 import { render } from 'react-dom'
-import { AlertProvider } from '@hunkim98/react-alert-with-buttons'
+import { AlertProvider } from 'react-alert-with-buttons'
 import App from './App'
 
 
@@ -143,7 +143,7 @@ You may add other buttons by adding buttons property in the open method.
 ```js
 // App.js
 import React from 'react'
-import { useAlert } from '@hunkim98/react-alert-with-buttons'
+import { useAlert } from 'react-alert-with-buttons'
 
 const App = () => {
   const alert = useAlert()
@@ -213,7 +213,7 @@ You can style your buttons if you want, adding style props in the button array a
 ```js
 // App.js
 import React from 'react'
-import { useAlert } from '@hunkim98/react-alert-with-buttons'
+import { useAlert } from 'react-alert-with-buttons'
 
 const App = () => {
   const alert = useAlert()
