@@ -25,11 +25,11 @@ or
 
 ## Installation
 
-`$ npm install --save @hunkim98/react-alert-with-buttons`
+`$ npm install --save react-alert-with-buttons`
 
 or
 
-`$ yarn add react @hunkim98/react-alert-with-buttons`
+`$ yarn add react-alert-with-buttons`
 
 <hr/>
 
