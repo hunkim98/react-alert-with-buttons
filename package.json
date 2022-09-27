@@ -1,6 +1,6 @@
 {
   "name": "react-alert-with-buttons",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "A library that creates alerts with clickable buttons",
   "scripts": {
     "rollup": "rollup -c"
